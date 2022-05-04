@@ -1,10 +1,11 @@
 import { Login } from './routes'
+import { Signup } from './routes'
 
 function App() {
   return (
     <div>
-      {/* <h1>Hello World</h1> */}
-      <Login />
+      {/* <Login /> */}
+      <Signup />
     </div>
   );
 }
