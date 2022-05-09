@@ -33,7 +33,7 @@ export default class ChatContent extends Component {
       image:
         "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
       type: "",
-      msg: "Awesome these days.",
+      msg: "I am all well,are you done with the project part you were working on?.",
     },
     {
       key: 5,
@@ -54,7 +54,7 @@ export default class ChatContent extends Component {
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
       type: "other",
-      msg: "I'm taliking about the tutorial",
+      msg: "I'm taliking about this react project",
     },
   ];
 
@@ -103,7 +103,7 @@ export default class ChatContent extends Component {
                 isOnline="active"
                 image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU"
               />
-              <p>Tim Hover</p>
+              <p>Timothy Otieno</p>
             </div>
           </div>
 

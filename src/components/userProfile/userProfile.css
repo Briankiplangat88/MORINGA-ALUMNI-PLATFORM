@@ -3,6 +3,7 @@
   padding: 0 20px 0 40px;
   transition: all 0.3s ease-in-out;
   overflow: hidden;
+  color: #ebe7fb;
   position: relative;
 }
 .profile__card {
@@ -35,6 +36,7 @@
   height: 100px;
   border-radius: 50%;
   overflow: hidden;
+  color: #c4c4c4;
 }
 .profile__card .profile__image img {
   object-fit: cover;
@@ -67,7 +69,7 @@
   overflow: auto;
   width: 100%;
   padding: 15px 20px;
-  color: #6d6a6a;
+  color: #c4c4c4;
   font-size: 14px;
   display: none;
   transform-origin: top;

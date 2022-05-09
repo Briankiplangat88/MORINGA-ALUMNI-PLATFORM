@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./nav.css";
-import logo from "./../../images/logo.png";
+import logo from "./../../images/mlogo.png";
 
 export default class Nav extends Component {
   render() {

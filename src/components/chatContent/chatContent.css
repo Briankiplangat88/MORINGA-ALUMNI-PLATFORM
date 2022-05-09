@@ -6,7 +6,7 @@
 }
 .content__header {
   padding-bottom: 15px;
-  border-bottom: 1px solid #ebe7fb;
+  border-bottom: 1px solid #C4C4C4;
 }
 .current-chatting-user {
   display: flex;
@@ -22,7 +22,7 @@
   align-items: center;
 }
 .settings .btn-nobg {
-  color: #000;
+  color: #c4c4c4;
 }
 .content__body {
   max-height: calc(100vh - calc(100vh / 2));
