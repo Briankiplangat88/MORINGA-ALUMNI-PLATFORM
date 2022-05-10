@@ -1,4 +1,4 @@
-import { CreatePost, PostLists, Links } from "../../components";
+import { CreatePost, PostLists, Links, NewsLinks } from "../../components";
 
 export function Home() {
 	return (
@@ -25,7 +25,7 @@ export function Home() {
 						alignSelf: "start",
 					}}
 				>
-					stories
+					<NewsLinks />
 				</div>
 			</div>
 		</div>
