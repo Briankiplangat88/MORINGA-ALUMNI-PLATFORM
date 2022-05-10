@@ -13,24 +13,30 @@ export function CreatePost() {
 
 	return (
 		<div
-			style={{ backgroundColor: "#0A192F" }}
-			className="d-flex align-items-center bg-danger py-4"
+			style={{ backgroundColor: "#112340" }}
+			className="d-flex align-items-center justify-content-around py-4 mb-4 rounded shadow"
 		>
-			<div>
+			<div className='ms-3'>
 				<img
 					src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
 					className="rounded-circle"
-					height="35"
+					height="50"
 					alt="Black and White Portrait of a Man"
 					loading="lazy"
 				/>
 			</div>
-			<div>
-				<form onSubmit={handleSubmit} className="d-flex">
-					<input type="text" className="form-control bg-light" value={post} onChange={handleChange} />
+			<div style={{ width: "78%" }}>
+				<form onSubmit={handleSubmit} className="d-flex ">
+					<input
+						type="text"
+						className="form-control bg-light"
+						value={post}
+						onChange={handleChange}
+						placeholder="Create a Post"
+					/>
 					<button
 						style={{ backgroundColor: "#0A192F" }}
-						className="btn text-light"
+						className="btn text-light ms-3"
 					>
 						Post
 					</button>

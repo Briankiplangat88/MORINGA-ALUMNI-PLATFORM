@@ -1,8 +1,10 @@
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
-export function NewsLinks(){
-    return (
-			<div className="d-flex flex-column">
+export function NewsLinks() {
+	return (
+		<div>
+			<h2 className="text-light fs-3 fw-light my-2 text-center">Tech Stories</h2>
+			<div className="d-flex flex-column px-3">
 				<Link className="my-3 text-light" to="#">
 					My Journey in Software Development
 				</Link>
@@ -16,5 +18,6 @@ export function NewsLinks(){
 					How to pass FAANG Interviews
 				</Link>
 			</div>
-		);
+		</div>
+	);
 }

@@ -2,6 +2,9 @@ import { Post } from './Post'
 
 export function PostLists(){
     return (
-        <Post />
-    )
+			<div className="mt-4">
+				<Post />
+				<Post />
+			</div>
+		);
 }

@@ -1,15 +1,15 @@
 export function Post() {
 	return (
-		<div style={{width: "30rem"}} class="card mx-auto mb-3">
+		<div class="card w-100 mx-auto mb-3">
 			<div class="card-header d-flex align-items-center">
 				<img
 					class="rounded-circle z-depth-2"
 					alt="100x100"
-					src="{{post.posted_by.profile.avatar.url}}"
-					width="60"
-					height="60"
+					src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+					width="45"
+					height="45"
 				/>
-				<p class="fs-5 ms-4 mt-2">posted_by.username</p>
+				<p class="fs-5 ms-4 mt-2">username</p>
 			</div>
 			<div class="card-body">
 				<p>
@@ -37,7 +37,7 @@ export function Post() {
 				<div
 					id="comments-1"
 					class="collapse card-footer py-3 border-0"
-					style={{backgroundColor: "#f8f9fa"}}
+					style={{ backgroundColor: "#f8f9fa" }}
 				>
 					<div>
 						<div class="mt-3">

@@ -7,7 +7,7 @@ export function Navbar() {
 			className="navbar navbar-expand-lg navbar-light mb-3"
 		>
 			<div className="container">
-				<h1 className="navbar-brand fs-4 mt-2 mt-lg-0 text-light">
+				<h1 className="navbar-brand fs-2 fw-light mt-2 mt-lg-0 text-light">
 					Moringa School Alumni
 				</h1>
 				<button
@@ -23,13 +23,16 @@ export function Navbar() {
 				</button>
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 					<div className="d-block d-md-flex  ms-3 ms-md-auto align-items-center">
-						<a className="text-light text-decoration-none me-3" href="#">
+						<Link className="text-light text-decoration-none me-3" to="#">
 							Home
-						</a>
+						</Link>
+						<Link className="text-light text-decoration-none me-3" to="#">
+							Messages
+						</Link>
 						<div className="dropdown mt-3 mt-md-0">
-							<a
+							<Link
 								className="dropdown-toggle d-flex align-items-center hidden-arrow"
-								href="#"
+								to="#"
 								id="navbarDropdownMenuAvatar"
 								role="button"
 								data-bs-toggle="dropdown"
@@ -42,20 +45,20 @@ export function Navbar() {
 									alt="Black and White Portrait of a Man"
 									loading="lazy"
 								/>
-							</a>
+							</Link>
 							<ul
 								className="dropdown-menu dropdown-menu-end"
 								aria-labelledby="navbarDropdownMenuAvatar"
 							>
 								<li>
-									<a className="dropdown-item" href="#">
+									<Link className="dropdown-item" to="#">
 										My profile
-									</a>
+									</Link>
 								</li>
 								<li>
-									<a className="dropdown-item" href="#">
+									<Link className="dropdown-item" to="#">
 										Logout
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</div>
