@@ -1,24 +1,29 @@
-import { CreatePost, PostLists } from "../../components";
+import { CreatePost, PostLists, Links } from "../../components";
 
 export function Home() {
 	return (
 		<div style={containerStyles} className="container">
-			<div className="grid-styles" >
+			<div className="grid-styles">
 				<div
-					style={{backgroundColor: "#112340", border: "1px solid white" }}
+					style={{
+						backgroundColor: "#112340",
+						border: "1px solid white",
+						alignSelf: "start",
+					}}
 				>
-					links
+					<Links />
 				</div>
-				<div
-					style={{backgroundColor: "#112340" , border: "1px solid white"}}
-				>
+				<div style={{ backgroundColor: "#112340", border: "1px solid white" }}>
 					<CreatePost />
-					<hr />
+					<hr className="bg-light" />
 					<PostLists />
-
 				</div>
 				<div
-					style={{backgroundColor: "#112340", border: "1px solid white" }}
+					style={{
+						backgroundColor: "#112340",
+						border: "1px solid white",
+						alignSelf: "start",
+					}}
 				>
 					stories
 				</div>
